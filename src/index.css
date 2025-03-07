@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #2A3F54;
+  --accent-color: #1ABB9C;
+  --background-color: #F7F7F7;
+  --text-color: #34495E;
+  --sidebar-width: 250px;
+  --sidebar-collapsed-width: 60px;
+  --transition-speed: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
